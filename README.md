@@ -1,4 +1,5 @@
 # stress-tester
+This is a small application to determine user's currect stress level by examining user's quotes.
 
 ## Prerequisites
 * Git
