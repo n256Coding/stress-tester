@@ -11,13 +11,16 @@ import java.util.List;
 @Document(collection = "dep_level")
 @AllArgsConstructor
 public class StressLevel {
-
-
-    @Getter @Setter
+    @Getter
+    @Setter
     private String level;
 
-    @Getter @Setter
+    @Getter
+    @Setter
     private List<String> keywords;
 
+    @Getter
+    @Setter
+    private double severity;
 
 }
